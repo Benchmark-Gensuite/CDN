@@ -5,7 +5,7 @@
 - include style file from cdn
 - set license key
 
-```html
+```html+js
 <script src="https://cdn.benchmarkdigital.com/plugins/ai/describe-it/js/benchmarkgensuite.describe-it-ai.min.umd.js">
 <link rel="stylesheet" href="https://cdn.benchmarkdigital.com/plugins/ai/describe-it/css/benchmarkgensuite.describe-it-ai.min.css">
 <script>
