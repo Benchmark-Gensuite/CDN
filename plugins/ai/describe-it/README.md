@@ -20,13 +20,17 @@
 ```
 That's it!
 
+### Notes
+- It is highly recommended that you protect your key and store it securely and embed as needed on pages. In the incident a license key needs to be replaced due to feature requests, or other upgrades, you would want to replace it once, rather than multiple times
+- license keys are valid for the length of a contract specified unless otherwise revoked manually by the Benchmark Gensuite team
+
 ---
 
-## Customzing
+## Customizing
 ### Adding Report Value
 Various properties on your text area are used to track and generate reports, those fields are:
 
-- `id` (optional) this is the html property of id of the the textarea element itself
+- `id` (optional) this is the html property of id of the textarea element itself
 - `name` (optional) the html property of name of the textarea element
 - `data-bmgs-describeit-ai-ext-ref-type` (optional) optional html property on the textarea element to be used for custom data tracked in reporting. This is commonly an application name, form type, or other "grouping" to describe the textarea
 - `data-bmgs-describeit-ai-ext-ref-id` (optional) an optional specific external id to be tracked within that previous ref-type. This is commonly a form or record id
@@ -42,7 +46,7 @@ all of the above, still allowing for normal text area properties like rows and m
 ```html
 <textarea name="InspectionAddress" class="form-control editorial-ai bmgs-describeit-ai" rows="2" maxlength="1000" id="f8604730-0e4e-46cc-a32c-d9dea296967b" data-bmgs-describeit-ai-ext-ref-type="test-ref-type" data-bmgs-describeit-ai-ext-ref-id="1234" data-bmgs-describeit-ai-ext-ref-name="foobar"></textarea>
 ```
-any additional classes, styles, or properties should not intefere with the plugin
+any additional classes, styles, or properties should not interfere with the plugin
 
 ---
 
@@ -53,11 +57,11 @@ Questions can be disabled by adding properties such as:
     - valid questions are:
         - `fall` - the question that prompts how far did a person or object fall if a fall was detected
         - `burn` - the question that asks what degree of burn to be added if a burn was detected
-    - single or multiple flags can be added by comma seperation
+    - single or multiple flags can be added by comma separation
 - `data-bmgs-disable-flags` (optional) - this is a list of flags to disable
     - valid flags are:
         - `pii` - this is a flag for names, emails, and other basic pii detections
-    - single or multiple flags can be added by comma seperation
+    - single or multiple flags can be added by comma separation
 
 #### Examples
 
@@ -80,7 +84,7 @@ disable fall and burn questions, and pii flag
 
 ## Questions?
 
-Please reach out to your Benchmark Gensuite Support liason for custom support.
+Please reach out to your Benchmark Gensuite Support liaison for custom support.
 
 ---
 
