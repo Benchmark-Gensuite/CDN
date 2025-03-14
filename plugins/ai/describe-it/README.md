@@ -1,9 +1,11 @@
 # Describe-It Plugin Details
 
 ## Getting started
-- include script file from cdn
-- include style file from cdn
-- set license key
+Once on the page, typically in your `<head>` section:
+- include script file from cdn hosted at `https://cdn.benchmarkdigital.com/plugins/ai/describe-it/js/benchmarkgensuite.describe-it-ai.min.umd.js`
+- include style file from cdn hosted at 
+`https://cdn.benchmarkdigital.com/plugins/ai/describe-it/css/benchmarkgensuite.describe-it-ai.min.css`
+- set license key provided to your team. {{your license key goes here}} should be replaced (including the brackets)
 
 ```html+js
 <script src="https://cdn.benchmarkdigital.com/plugins/ai/describe-it/js/benchmarkgensuite.describe-it-ai.min.umd.js">
@@ -13,7 +15,7 @@
 </script>
 ```
 
-- add a class to your textarea
+- later on, for whatever textarea you want to enhance with the Describe-It AI, add the `bmgs-describeit-ai` class to your textarea. Other classes can still be used for style purposes
 
 ```html
  <textarea class="bmgs-describeit-ai"></textarea>
