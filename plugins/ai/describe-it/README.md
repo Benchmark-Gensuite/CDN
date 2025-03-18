@@ -5,13 +5,13 @@ Once on the page, typically in your `<head>` section:
 - include script file from cdn hosted at `https://cdn.benchmarkdigital.com/plugins/ai/describe-it/js/benchmarkgensuite.describe-it-ai.min.umd.js`
 - include style file from cdn hosted at 
 `https://cdn.benchmarkdigital.com/plugins/ai/describe-it/css/benchmarkgensuite.describe-it-ai.min.css`
-- set license key provided to your team. {{your license key goes here}} should be replaced (including the brackets)
+- set license key provided to your team. YOUR_LICENSE_KEY_GOES_HERE should be replaced.
 
 ```html+js
 <script src="https://cdn.benchmarkdigital.com/plugins/ai/describe-it/js/benchmarkgensuite.describe-it-ai.min.umd.js">
 <link rel="stylesheet" href="https://cdn.benchmarkdigital.com/plugins/ai/describe-it/css/benchmarkgensuite.describe-it-ai.min.css">
 <script>
-    describeItAi.setLicenseKey('{{your license key goes here}}')
+    describeItAI.setLicenseKey('YOUR_LICENSE_KEY_GOES_HERE')
 </script>
 ```
 
